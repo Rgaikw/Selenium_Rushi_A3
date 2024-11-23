@@ -26,5 +26,5 @@ public void deleteAddress() throws InterruptedException, IOException {
 	driver.switchTo().alert().accept();
 	Thread.sleep(2000);
 	webdriverutility.WebpageScreenshot(driver);
- }
+   }
 }
